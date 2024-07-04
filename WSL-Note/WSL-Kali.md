@@ -7,7 +7,7 @@ $ kali-tweaks
 - Kali-win-kex
 
 ```
-suod apt install kali-win-kex -y
+sudo apt install kali-win-kex -y
 ```
 - To run
   ```
