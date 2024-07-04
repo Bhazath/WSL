@@ -10,20 +10,20 @@ wsl -d <distribution_name>
 ```
 #
 - The wsl --list (or wsl -l) command is used to list all the installed WSL distributions.
-  ```
+```
   wsl --list --verbose
   wsl -l -v 
-  ```
+```
 - To shoutdown all wsl vm
-  ```
+```
   wsl --shutdonw
   # to down one vm
   wsl --terminate <disoro_name>
-  ```
+```
 - To set default disto in wsl
-  ```
+```
   wsl -set-default <distro>
-  ```
+```
 - To view all distro online
 ```
 wsl --list --online
@@ -38,8 +38,6 @@ wsl --install <distribution_name>
   ```
   wsl --unregister <distro>
   ```
-#
-
 #
 # 
 
