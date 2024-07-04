@@ -33,6 +33,14 @@ wsl --list --online
 wsl --install <distribution_name>
 ```
 #
+# To delete
+- To remove
+  ```
+  wsl --unregister <distro>
+  ```
+#
+
+#
 # 
 
 - You can run all command in win command in wsl
