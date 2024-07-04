@@ -9,6 +9,9 @@ wsl --install
 wsl -d <distribution_name>
 ```
 #
+
+# View
+
 - The wsl --list (or wsl -l) command is used to list all the installed WSL distributions.
 ```
   wsl --list --verbose
@@ -24,6 +27,8 @@ wsl -d <distribution_name>
 ```
   wsl -set-default <distro>
 ```
+
+# Installation 
 - To view all distro online
 ```
 wsl --list --online
@@ -32,6 +37,10 @@ wsl --list --online
 ```
 wsl --install <distribution_name>
 ```
+- to connect to user in distro
+```
+wsl -d <distro> -u <user-name>
+```
 #
 # To delete
 - To remove
@@ -39,8 +48,8 @@ wsl --install <distribution_name>
   wsl --unregister <distro>
   ```
 #
-# 
 
+# CMD command in wsl  
 - You can run all command in win command in wsl
   ```
   ping.exe
@@ -51,4 +60,16 @@ wsl --install <distribution_name>
   ```
   ipconfig | wsl grep 192.
   ```
-
+#
+# 
+# BACKUP
+```
+wsl --list --verbose
+```
+```
+wsl --export <distor> <distor.tar> 
+```
+# Import
+```
+wsl --import <anyname> <newpath D:\wsl> <distor.tar>
+```
